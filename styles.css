@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#listContainer {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+#forestContainer {
+    margin-bottom: 10px;
+}
+
+#forestSelect {
+    font-size: 16px;
+    background-color: #f0f0f0;
+}
+
+#forestSelect option:checked {
+    background: #1c87c9;
+    color: #fff;
+}
+
+#studentContainer {
+    padding: 10px;
+}
+
+#checkListScrollableContainer {
+    width: 160px;
+    height: 600px;
+    overflow: auto;
+}
+
+#svgContainer {
+    overflow: auto; 
+    height: 100vh; 
+    width: 100%; 
+}
+
+#innerContainer {
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#eleves_svg {
+    flex-grow: 1;
+    height: auto;
+}
